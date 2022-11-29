@@ -8,7 +8,7 @@
 //     <App />
 //   </React.StrictMode>
 // );
-
+import React from "react";
 import { createRef } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, NavLink, useLocation, useOutlet } from 'react-router-dom';
@@ -21,16 +21,27 @@ import './bootstrap.css';
 import './styles.css'
 
 const routes = [
-  { path: '/', name: 'Main', element: <Main />, nodeRef: createRef() },
-  { path: '/about', name: 'About', element: <About />, nodeRef: createRef() },
-  { path: '/contact', name: 'Contact', element: <Contact />, nodeRef: createRef(),
+  { path: '/',
+    name: 'Main',
+    element: <Main />,
+    nodeRef: createRef()
+  },
+  { path: '/about',
+    name: 'About',
+    element: <About />,
+    nodeRef: createRef()
+  },
+  { path: '/contact',
+    name: 'Contact',
+    element: <Contact />,
+    nodeRef: createRef(),
   },
 ]
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Example />,
+    element: <ReactTransitionGroup />,
     children: routes.map((route) => ({
       index: route.path === '/',
       path: route.path === '/' ? undefined : route.path,
@@ -39,13 +50,12 @@ const router = createBrowserRouter([
   },
 ])
 
-function Example() {
+function ReactTransitionGroup() {
   const location = useLocation()
   const currentOutlet = useOutlet()
-  const { nodeRef } =
-  routes.find((route) => route.path === location.pathname) ?? {}
+  const { nodeRef } = routes.find((route) => route.path === location.pathname) ?? {}
   return (
-    <>
+    <div>
       <Navbar bg="light">
         <Nav className="mx-auto">
           {routes.map((route) => (
@@ -78,7 +88,7 @@ function Example() {
           </CSSTransition>
         </SwitchTransition>
       </Container>
-    </>
+    </div>
   )
 }
 
