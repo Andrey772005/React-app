@@ -1,21 +1,21 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom/client';
-// import App from './components/app/App';
-//
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
-import React from "react";
+ import React from 'react';
+ import ReactDOM from 'react-dom/client';
+ import App from './components/app/App';
+
+ const root = ReactDOM.createRoot(document.getElementById('root'));
+ root.render(
+   <React.StrictMode>
+     <App />
+   </React.StrictMode>
+ );
+/*import React from "react";
 import { createRef } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider, NavLink, useLocation, useOutlet } from 'react-router-dom';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 import { Container, Navbar, Nav } from 'react-bootstrap';
 import Main from "./components/blocks/main";
-import About from "./components/blocks/about";
+import Header from "./components/blocks/about";
 import Contact from "./components/blocks/contact";
 import './bootstrap.css';
 import './styles.css'
@@ -27,8 +27,8 @@ const routes = [
     nodeRef: createRef()
   },
   { path: '/about',
-    name: 'About',
-    element: <About />,
+    name: 'Header',
+    element: <Header />,
     nodeRef: createRef()
   },
   { path: '/contact',
@@ -42,7 +42,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <ReactTransitionGroup />,
-    children: routes.map((route) => ({
+    children: routes.map ((route) => ({
       index: route.path === '/',
       path: route.path === '/' ? undefined : route.path,
       element: route.element,
@@ -94,4 +94,4 @@ function ReactTransitionGroup() {
 
 const container = document.getElementById('root')
 const root = createRoot(container)
-root.render(<RouterProvider router={router} />)
+root.render(<RouterProvider router={router} />)*/
