@@ -66,8 +66,7 @@
 .site-list a {
     position: relative;
     display: block;
-    padding: 12px 21px;
-    padding-bottom: 13px;
+    padding: 12px 21px 13px;
     font-weight: 500;
     font-size: 12px;
     line-height: 16px;
