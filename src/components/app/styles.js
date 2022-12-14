@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
 html {
 	min-height: 100%;
   	margin-left: calc(100vw - 100%)
@@ -23,3 +23,5 @@ body {
 	color: ${(props) => props.theme.textColor};
 }
 `;
+
+export default GlobalStyle;
