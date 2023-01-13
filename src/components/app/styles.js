@@ -3,7 +3,7 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
 html {
 	min-height: 100%;
-  	margin-left: calc(100vw - 100%)
+  margin-left: calc(100vw - 100%)
 }
 
 body,
