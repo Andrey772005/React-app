@@ -14,9 +14,9 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0D0C1D;
-    color: #EFFFFA;
-    height: 100vh;
+    background: #F3EBE1;
+    color: #333333;
+    height: auto;
     text-rendering: optimizeLegibility;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   }

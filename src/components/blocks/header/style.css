@@ -1,3 +1,4 @@
+/*
 .page__header {
     background-color: @white;
     color: @white;
@@ -29,7 +30,7 @@
     z-index: 2;
 }
 
-/* Меню */
+!* Меню *!
 
 .main-nav__list {
     position: relative;
@@ -44,7 +45,7 @@
     list-style: none;
 }
 
-/* Ссылки */
+!* Ссылки *!
 
 .site-list a {
     position: relative;
@@ -61,11 +62,11 @@
 .site-list__item:nth-child(2) a,
 .site-list__item:nth-child(3) a,
 .site-list__item:nth-child(4) a {
-    /* stylelint-disable-next-line length-zero-no-unit */
+    !* stylelint-disable-next-line length-zero-no-unit *!
     box-shadow: 0px -1px 0px rgba(1, 1, 1, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.2);
 }
 
-/* Гамбургер */
+!* Гамбургер *!
 
 .main-nav__toggle {
     position: absolute;
@@ -79,7 +80,7 @@
     border: none;
 }
 
-/* Закрытое меню */
+!* Закрытое меню *!
 
 .main-nav--closed .main-nav__toggle::before {
     content: "";
@@ -103,7 +104,7 @@
     }
 }
 
-/* Открытое меню */
+!* Открытое меню *!
 
 .main-nav--opened .main-nav__toggle {
     top: 0;
@@ -130,7 +131,7 @@
  }
 }
 
-/* No JS */
+!* No JS *!
 
 .main-nav--nojs .main-nav__toggle {
     display: none;
@@ -148,3 +149,4 @@
 .main-nav--nojs .user-list__item {
     display: block;
 }
+*/
