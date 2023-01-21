@@ -5,7 +5,7 @@ export const StyledMenu = styled.nav`
   flex-direction: column;
   justify-content: center;
   background: #EFFFFA;
-  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
+  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
   height: auto;
   text-align: left;
   padding: 2rem;
@@ -16,7 +16,7 @@ export const StyledMenu = styled.nav`
 
   @media (max-width: 576px) {
       width: 100%;
-    }
+  }
 
   a {
     font-size: 2rem;
@@ -40,8 +40,8 @@ export const StyledMenu = styled.nav`
 `
 export const StyledBurger = styled.button`
   position: absolute;
-  top: 5%;
-  left: 2rem;
+  top: 2%;
+  right: 1.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -60,7 +60,7 @@ export const StyledBurger = styled.button`
   div {
     width: 2rem;
     height: 0.25rem;
-    background: ${({ open }) => open ? '#0D0C1D' : '#EFFFFA'};
+    background: ${({ open }) => open ? '#0D0C1D' : '#333333'};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
