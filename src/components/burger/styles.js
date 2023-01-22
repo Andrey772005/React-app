@@ -5,8 +5,9 @@ export const StyledMenu = styled.nav`
   flex-direction: column;
   justify-content: center;
   background: #EFFFFA;
-  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(100%)'};
+  transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
   height: auto;
+  width: 100%;
   text-align: left;
   padding: 2rem;
   position: absolute;
