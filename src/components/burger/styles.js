@@ -8,7 +8,7 @@ export const StyledMenu = styled.nav`
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
   height: auto;
   width: 100%;
-  text-align: left;
+  text-align: center;
   padding: 2rem;
   position: absolute;
   top: 0;
@@ -41,7 +41,7 @@ export const StyledMenu = styled.nav`
 `
 export const StyledBurger = styled.button`
   position: absolute;
-  top: 2%;
+  top: 1%;
   right: 1.5rem;
   display: flex;
   flex-direction: column;
@@ -60,7 +60,7 @@ export const StyledBurger = styled.button`
 
   div {
     width: 2rem;
-    height: 0.25rem;
+    height: 0.275rem;
     background: ${({ open }) => open ? '#0D0C1D' : '#333333'};
     border-radius: 10px;
     transition: all 0.3s linear;

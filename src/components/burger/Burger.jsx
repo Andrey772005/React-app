@@ -6,7 +6,7 @@ const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
       <a href="/">
-        <span role="img" aria-label="about us">💁🏻‍♂️</span>
+        <span role="img" aria-label="about us">💁🏻‍♂</span>
         About us
       </a>
       <a href="/">
@@ -36,8 +36,8 @@ export const BurgerMenu = () => {
   const node = React.useRef();
   return (
     <div ref={node}>
-      <Burger open={open} setOpen={setOpen} />
       <Menu open={open} setOpen={setOpen} />
+      <Burger open={open} setOpen={setOpen} />
     </div>
   )
 }
