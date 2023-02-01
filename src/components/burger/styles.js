@@ -11,6 +11,7 @@ export const StyledMenu = styled.nav`
   text-align: center;
   padding: 2rem;
   position: absolute;
+  z-index: 100;
   top: 0;
   left: 0;
   transition: transform 0.3s ease-in-out;
@@ -23,11 +24,13 @@ export const StyledMenu = styled.nav`
     font-weight: bold;
     letter-spacing: 0.5rem;
     color: #0D0C1D;
+    z-index: 102;
     text-decoration: none;
     transition: color 0.3s linear;
 
     &:hover {
       color: #343078;
+      z-index: 103;
     }
   }
 `
@@ -44,7 +47,7 @@ export const StyledBurger = styled.button`
   border: none;
   cursor: pointer;
   padding: 0;
-  z-index: 10;
+  z-index: 101;
 
   &:focus {
     outline: none;
