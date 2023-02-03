@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Header = styled.header`
+const MainHeader = styled.header`
   width: 100%;
   height: 50px;
   margin: 0;
@@ -11,4 +11,4 @@ const Header = styled.header`
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#f1f0ed",GradientType=1);
 `;
 
-export default Header;
+export default MainHeader;
