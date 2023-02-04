@@ -15,10 +15,10 @@ export default function SwiperSlider() {
     <>
       <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
         <SwiperSlide>
-          <img src={Foto1}></img>
+          <img src={Foto1} alt="foto1"></img>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Foto2}></img>
+          <img src={Foto2} alt="foto2"></img>
         </SwiperSlide>
       </Swiper>
     </>
