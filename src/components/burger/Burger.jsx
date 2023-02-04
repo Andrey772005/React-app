@@ -7,15 +7,15 @@ const Menu = ({ open }) => {
     <StyledMenu open={open}>
       <a href="/">
         <span role="img" aria-label="about us">💁🏻‍♂</span>
-        About us
+        Статьи
       </a>
       <a href="/">
         <span role="img" aria-label="price">💸</span>
-        Pricing
+        Обо мне
       </a>
       <a href="/">
         <span role="img" aria-label="contact">📩</span>
-        Contact
+        Контакты
       </a>
     </StyledMenu>
   )

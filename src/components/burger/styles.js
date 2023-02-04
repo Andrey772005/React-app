@@ -36,7 +36,7 @@ export const StyledMenu = styled.nav`
 `
 export const StyledBurger = styled.button`
   position: absolute;
-  top: 1%;
+  top: 1.4%;
   right: 1.5rem;
   display: flex;
   flex-direction: column;
