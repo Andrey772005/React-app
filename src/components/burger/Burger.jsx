@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useRef} from 'react';
 import {StyledMenu} from "./styles";
 import {StyledBurger} from "./styles";
 
@@ -32,8 +32,8 @@ const Burger = ({ open, setOpen }) => {
 }
 
 export const BurgerMenu = () => {
-  const [open, setOpen] = React.useState(false);
-  const node = React.useRef();
+  const [open, setOpen] = useState(false);
+  const node = useRef();
   return (
     <div ref={node}>
       <Menu open={open} setOpen={setOpen} />
