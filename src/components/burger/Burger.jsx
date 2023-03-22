@@ -5,16 +5,16 @@ import {StyledBurger} from "./styles";
 const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
-      <a href="/">
-        <span role="img" aria-label="about us">💁🏻‍♂</span>
+      <a href="/" style={{pointerEvents: 'none'}}>
+        {/*<span role="img" aria-label="about us">💁🏻‍♂</span>*/}
         Статьи
       </a>
       <a href="/">
-        <span role="img" aria-label="price">💸</span>
+        {/*<span role="img" aria-label="price">💸</span>*/}
         Обо мне
       </a>
       <a href="/">
-        <span role="img" aria-label="contact">📩</span>
+        {/*<span role="img" aria-label="contact">📩</span>*/}
         Контакты
       </a>
     </StyledMenu>

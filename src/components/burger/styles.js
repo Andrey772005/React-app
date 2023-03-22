@@ -32,6 +32,12 @@ export const StyledMenu = styled.nav`
       color: #343078;
       z-index: 103;
     }
+    
+    // Удалить код ниже при использовании статей //
+    
+    &:first-child {
+      opacity: 0.2;
+    }
   }
 `
 export const StyledBurger = styled.button`
