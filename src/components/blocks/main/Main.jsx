@@ -1,6 +1,6 @@
 import React from 'react';
 import {MainPage} from "./styles";
-import Main from "../../../assets/main.jpg";
+import Main from "../../../assets/main.webp";
 import {Img} from "../../../styled/img/Image";
 import {Figure} from "../../../styled/figure/Figure";
 import SwiperSlider from "../../swiper/Swiper";

@@ -2,8 +2,8 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import Foto1 from "../../assets/583A9130.jpg";
-import Foto2 from "../../assets/583A9425.jpg";
+import Foto1 from "../../assets/1.webp";
+import Foto2 from "../../assets/2.webp";
 
 import "./styles.css";
 

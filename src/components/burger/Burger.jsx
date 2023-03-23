@@ -35,7 +35,7 @@ export const BurgerMenu = () => {
   const [open, setOpen] = useState(false);
   const node = useRef();
   return (
-    <div ref={node}>
+    <div ref={node} role={"button"}>
       <Menu open={open} setOpen={setOpen} />
       <Burger open={open} setOpen={setOpen} />
     </div>
