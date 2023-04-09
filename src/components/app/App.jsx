@@ -1,8 +1,8 @@
- import React from "react";
- import GlobalStyle from "./styles";
- import { useMediaQuery } from 'react-responsive';
- import Header from "../blocks/header/Header";
- import {BurgerMenu} from "../burger/Burger";
+import React from "react";
+import GlobalStyle from "./styles";
+import { useMediaQuery } from 'react-responsive';
+import Header from "../blocks/header/Header";
+import { BurgerMenu } from "../burger/Burger";
 import PageWrapper from "../blocks/main/Main";
 
  const Desktop = ({ children }) => {
