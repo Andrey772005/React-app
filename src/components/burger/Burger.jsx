@@ -1,4 +1,4 @@
-import React, {useState, useRef} from 'react';
+import React, {useState} from 'react';
 import {StyledMenu} from "./styles";
 import {StyledBurger} from "./styles";
 
@@ -33,7 +33,7 @@ const Burger = ({ open, setOpen }) => {
 
 export const BurgerMenu = () => {
   const [open, setOpen] = useState(false);
-  const node = useRef();
+//   const node = useRef();
   return (
     <>
       <Menu open={open} setOpen={setOpen} />

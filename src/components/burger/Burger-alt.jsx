@@ -26,7 +26,7 @@ const BurgerMenu = () => {
   );
 };
 
-export BurgerMenu;
+export default BurgerMenu;
 
 
 // import React from "react";
