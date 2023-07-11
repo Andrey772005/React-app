@@ -1,0 +1,20 @@
+section {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+article {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 64px;
+    height: 500px;
+    border-radius: 36px;
+    align-items: flex-end;
+    opacity: 0.9;
+    transition: 0.5s;
+}
+
+

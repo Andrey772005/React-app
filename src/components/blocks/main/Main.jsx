@@ -5,6 +5,7 @@ import {Img} from "../../../styled/img/Image";
 import {Figure} from "../../../styled/figure/Figure";
 import SwiperSlider from "../../swiper/Swiper";
 
+
 function PageWrapper() {
   return (
     <MainPage>
