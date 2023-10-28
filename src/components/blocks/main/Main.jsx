@@ -4,8 +4,6 @@ import Main from "../../../assets/main.webp";
 import {Img} from "../../../styled/img/Image";
 import {Figure} from "../../../styled/figure/Figure";
 import SwiperSlider from "../../swiper/Swiper";
-import {Accordion} from "../../accordion/Accordion";
-
 
 function PageWrapper() {
   return (
@@ -17,7 +15,6 @@ function PageWrapper() {
           каждому из вас обрести главного человека в своей жизни &ndash; себя&#x00021;
         </figcaption>
       </Figure>
-      <Accordion/>
       <SwiperSlider/>
     </MainPage>
 
