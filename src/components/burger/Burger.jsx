@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
-import {StyledMenu} from "./styles";
-import {StyledBurger} from "./styles";
+import {StyledMenu, StyledBurger} from "./styles";
 
 const Menu = ({ open }) => {
   return (

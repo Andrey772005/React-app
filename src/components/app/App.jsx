@@ -36,7 +36,7 @@ import PageWrapper from "../blocks/main/Main";
  function App() {
    return (
     <>
-      <GlobalStyle />
+      <GlobalStyle/>
       <Adaptive/>
     </>
    );
