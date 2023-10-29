@@ -10,11 +10,11 @@ import PageWrapper from "../blocks/main/Main";
    return isDesktop ? children : null
  }
  const Tablet = ({ children }) => {
-   const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1199 })
+   const isTablet = useMediaQuery({ minWidth: 969, maxWidth: 1199 })
    return isTablet ? children : null
  }
  const Mobile = ({ children }) => {
-   const isMobile = useMediaQuery({ maxWidth: 767 })
+   const isMobile = useMediaQuery({ maxWidth: 968 })
    return isMobile ? children : null
  }
 
