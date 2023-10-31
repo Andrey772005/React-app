@@ -10,7 +10,7 @@ const Menu = ({ open }) => {
       </a>
       <a href="/">
         {/*<span role="img" aria-label="price">💸</span>*/}
-        Обо мне
+        Обучение
       </a>
       <a href="/">
         {/*<span role="img" aria-label="contact">📩</span>*/}
