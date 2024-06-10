@@ -60,9 +60,9 @@ export const StyledBurger = styled.button`
   }
 
   div {
-    width: 2rem;
+    width: ${({ open }) => open ? '2rem' : '1.8rem'};
     height: 0.285rem;
-    background: ${({ open }) => open ? '#0D0C1D' : '#333333'};
+    background: ${({ open }) => open ? '#0D0C1D' : '#E20055'};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
