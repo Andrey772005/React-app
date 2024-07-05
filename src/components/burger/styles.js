@@ -4,7 +4,7 @@ export const StyledMenu = styled.nav`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #EFFFFA;
+  background: #E20055;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
   height: auto;
   width: 100%;
@@ -18,12 +18,13 @@ export const StyledMenu = styled.nav`
 
   a {
     font-size: 1.5rem;
+    line-height: 24px;
+    font-family: Cuprum, sans-serif;
     text-transform: uppercase;
     text-align: center;
-    padding: 2rem 0;
-    font-weight: bold;
-    letter-spacing: 0.5rem;
-    color: #0D0C1D;
+    padding: 0.5rem 0;
+    font-weight: 400;
+    color: #F2F2F2;
     z-index: 102;
     text-decoration: none;
     transition: color 0.3s linear;
@@ -60,9 +61,9 @@ export const StyledBurger = styled.button`
   }
 
   div {
-    width: ${({ open }) => open ? '2rem' : '1.8rem'};
+    width: ${({ open }) => open ? '2.0rem' : '1.8rem'};
     height: 0.285rem;
-    background: ${({ open }) => open ? '#0D0C1D' : '#E20055'};
+    background: ${({ open }) => open ? '#F2F2F2' : '#E20055'};
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;

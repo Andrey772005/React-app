@@ -1,7 +1,7 @@
 import React from 'react';
-import Logo from './styles';
+import Logo from './styles.js';
 
-function MainLogo() {
+ function MainLogo() {
   return(
     <>
       <Logo/>
@@ -9,4 +9,4 @@ function MainLogo() {
   )
 };
 
-export {MainLogo};
+export {MainLogo}

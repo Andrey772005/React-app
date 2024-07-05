@@ -1,11 +1,10 @@
 import styled from "styled-components";
-import {ReactComponent} from "../../assets/Aleksandra-Langovaya-_2_.svg"
+import { ReactComponent } from '../../assets/LOGO_2 copy 1.svg';
+
 const Logo = styled(ReactComponent)`
-    width: 250px;
-    height: 55px;
-    position: absolute;
-    top: 0;
-    left: 10px;
+    width: 65px;
+    height: 39px;
+    position: center;
     background-color: transparent;
 `;
 

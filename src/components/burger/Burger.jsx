@@ -4,17 +4,29 @@ import {StyledMenu, StyledBurger} from "./styles";
 const Menu = ({ open }) => {
   return (
     <StyledMenu open={open}>
-      <a href="/" style={{pointerEvents: 'none'}}>
+      <a href="/">
         {/*<span role="img" aria-label="about us">💁🏻‍♂</span>*/}
-        Статьи
+        Направления
       </a>
       <a href="/">
         {/*<span role="img" aria-label="price">💸</span>*/}
-        Обучение
+        Преподаватели
+      </a>
+      <a href="/">
+        {/*<span role="img" aria-label="contact">📩</span>*/}
+        Расписание
+      </a>
+      <a href="/">
+        {/*<span role="img" aria-label="contact">📩</span>*/}
+        Цены
       </a>
       <a href="/">
         {/*<span role="img" aria-label="contact">📩</span>*/}
         Контакты
+      </a>
+      <a href="/">
+        {/*<span role="img" aria-label="contact">📩</span>*/}
+        Личный кабинет
       </a>
     </StyledMenu>
   )
